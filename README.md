@@ -27,7 +27,8 @@
 		- [Response](#response-5)
 
 ## .ENV
-Para conectarse a la base de datos de mongodb, se necesitas adicionar en el archivo `.env` la cadena de texto de conexion en la variable `MONGO_DB_URI`.
+> **Nota** Por defecto ha sido adicionado. En caso de no encontrase seguir la siguiente instrucción.
+Para conectarse a la base de datos de mongodb, se necesitas adicionar en el archivo `.env` la cadena de texto de conexion en la variable `MONGO_DB_URI`. 
 
 
 ````bash
