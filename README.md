@@ -67,9 +67,9 @@ Ejemplos de los endpoint creados en la restAPi
 ## Registrar usuario
 ### Request
 `POST /api/user`
+> **Nota** Los nombre de las propiedades del objeto deben ser como se muestra a continuación. 
 
 ````JSON
-// Propiedades del objeto que debe ser enviado
 {
 	"usuario": "kelly",
 	"nombreCompleto": "kelly Perez",
@@ -77,6 +77,7 @@ Ejemplos de los endpoint creados en la restAPi
 	"password": "123456"
 }
 ````
+
 ### Response
 ````JSON
 {
@@ -88,7 +89,7 @@ Ejemplos de los endpoint creados en la restAPi
 ## Obtener todos los servicios por id del usuario
 ### Request
 `GET /api/service/gestion?idUsuario=<ID_USUARIO>`
-
+> **Nota** El <ID_USUARIO> es el id del usuario que se logeo. 
 
 ### Response
 ````JSON
@@ -158,8 +159,8 @@ Ejemplos de los endpoint creados en la restAPi
 ## Guardar orden de servicio
 ### Request
 `POST /api/service`
+> **Nota** Los nombre de las propiedades del objeto deben ser como se muestra a continuación. 
 ````JSON
-// Propiedades del objeto que debe ser enviado
 {
 	"fecha": "16 Nov 2022",
 	"hora": "10:30:00",
@@ -192,8 +193,8 @@ Ejemplos de los endpoint creados en la restAPi
 ### Request
 `PUT /api/service?id=<ID_SERVICE>`
 
+> **Nota** Los nombre de las propiedades del objeto deben ser como se muestra a continuación. 
 ````JSON
-// Propiedades del objeto con los valores a actualizar
 {
 	"fecha": "16 Nov 2022",
 	"hora": "10:30:00",
